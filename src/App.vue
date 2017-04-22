@@ -11,6 +11,11 @@
           <h3>v-for</h3>
         </li>
       </router-link>
+       <router-link to="GitTest2">
+        <li>
+          <h3>GitTest2</h3>
+        </li>
+      </router-link>
     </ul>
     <router-view ></router-view>  
   </div>
