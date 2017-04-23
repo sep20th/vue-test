@@ -5,9 +5,6 @@ import VFor from '@/components/VFor'
 import QRcode from '@/components/QRcode'
 
 
-import GitTest from '@/components/GitTest'
-
-
 Vue.use(Router)
 
 export default new Router({
@@ -18,9 +15,6 @@ export default new Router({
       ]
     },
     { path: '/VFor', component: VFor },
-
-
-    { path:'/GitTest',component: GitTest },
 
   ]
 })
