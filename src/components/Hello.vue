@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h4>记录Vue踩过的坑 weenta mayy5th</h4>
+    <h4>记录Vue踩过的坑 weenta sep20th</h4>
     <hr>
     <router-view></router-view>
   </div>
