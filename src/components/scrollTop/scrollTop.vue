@@ -8,9 +8,11 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt consectetur quis dicta delectus voluptatem recusandae ea error, repellat ex fugiat beatae non totam nobis fugit aliquid laborum dolorem laboriosam quod.</p>
 		<hr>
 		<div class="foo">
-			<span class='scroll-item' @click='scollA'>Scroll-A</span>
+			<router-link to = '/ScrollTopA'>
+				<span class='scroll-item scroll-A' @click='scollA'>Scroll-A</span>
+			</router-link>
 			<router-link to='ScrollTopB'>
-				<span class='scroll-item'>Scroll-B</span>
+				<span class='scroll-item scroll-B' @click="scrollB">Scroll-B</span>
 			</router-link>
 		</div>
 		<router-view></router-view>
@@ -21,11 +23,16 @@
 		methods:{
 			scollA(){
 				this.$router.push('/ScrollTopA')
-				let h = document.getElementsByClassName('foo')[0]
-				console.log(h)
-				// console.log(h.offsetTop)
-				var top = document.body.scrollTop();
-				console.log(top)
+				let F = document.getElementsByClassName('foo')[0]
+				let top = F.offsetTop
+				window.scroll(0,top); 
+			},
+
+			scrollB(){
+				let F = document.getElementsByClassName('foo')[0]
+				// let B = document.getElementsByClassName('scroll-B')[0]
+				let top = F.offsetTop
+				window.scroll(0,top)
 			}
 		}
 	}

@@ -3,9 +3,9 @@ import Router from 'vue-router'
 import Hello from '@/components/hello'
 import VFor from '@/components/vFor'
 import QRcode from '@/components/qrCode'
-import ScrollTop from "@/components/scrollTop"
-import ScrollTopA from "@/components/scrollTopA"
-import ScrollTopB from "@/components/scrollTopB"
+import ScrollTop from "@/components/scrollTop/scrollTop"
+import ScrollTopA from "@/components/scrollTop/scrollTopA"
+import ScrollTopB from "@/components/scrollTop/scrollTopB"
 
 
 

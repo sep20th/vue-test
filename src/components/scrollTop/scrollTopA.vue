@@ -6,7 +6,10 @@
 </template>
 <style scoped>
 	div{
-		padding:300px;
+		width:300px;
+		height: 1900px;
+		padding:100px;
 		border: 1px solid blue;
+		margin:0 auto;
 	}
 </style>

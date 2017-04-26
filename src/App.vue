@@ -12,7 +12,7 @@
           <h3>v-for</h3>
         </li>
       </router-link>
-      <router-link to="ScrollTop">
+      <router-link to="ScrollTopA">
         <li>
           <h3>ScrollTop</h3>
         </li>
