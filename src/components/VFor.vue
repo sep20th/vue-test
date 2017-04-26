@@ -82,14 +82,12 @@
 	}
 </script>
 
-<style>
+<style scoped>
 	*{
 		padding: 0;
 		margin: 0;
 	}
-	li{
-		list-style: none;
-	}
+	
 	.notes{
 		padding: 1rem;
 		text-align:left;
