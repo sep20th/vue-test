@@ -6,6 +6,7 @@ import QRcode from '@/components/qrCode'
 import ScrollTop from "@/components/scrollTop/scrollTop"
 import ScrollTopA from "@/components/scrollTop/scrollTopA"
 import ScrollTopB from "@/components/scrollTop/scrollTopB"
+import Scroll from "@/components/scroll"
 
 
 
@@ -25,5 +26,6 @@ export default new Router({
 		  	{path:'/ScrollTopB',component:ScrollTopB}
     	]
   	},
+    {path:'/Scroll',component:Scroll}
   ]
 })

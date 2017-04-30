@@ -17,7 +17,11 @@
           <h3>ScrollTop</h3>
         </li>
       </router-link>
-
+      <router-link to="Scroll">
+        <li>
+          <h3>Scroll</h3>
+        </li>
+      </router-link>
 
     </ul>
     <router-view ></router-view>  
