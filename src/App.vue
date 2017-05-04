@@ -22,6 +22,11 @@
           <h3>Scroll</h3>
         </li>
       </router-link>
+      <router-link to="localStorage">
+        <li>
+          <h3>LocalStroage</h3>
+        </li>
+      </router-link>
 
     </ul>
     <router-view ></router-view>  
@@ -32,7 +37,7 @@
 export default {
   created(){
     // 直接路由到子组件 否则router-link-active 无法在父组件生效
-    this.$router.push('/QRcode')
+    this.$router.push('/localStorage')
   },//created end
 
   methods:{

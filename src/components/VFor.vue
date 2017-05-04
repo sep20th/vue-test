@@ -71,6 +71,7 @@
 
 				//获取DOM
 				let choseItem = document.getElementById(index)
+				//可以尝试用ref来获取dom
 
 				for(let i=0;i<this.items.length;i++){
 					console.log(i)
