@@ -21,7 +21,7 @@
 				history:[],
 				goods:'',
 			}
-		},
+		},//data end
 		
 		methods:{
 			search(){
@@ -35,7 +35,7 @@
 				location.reload();
 				localStorage.clear();
 			}
-		},
+		},//methods end
 
 		created(){
 
@@ -57,8 +57,7 @@
 				    alert("android");	
 			}
 
-		},
-		
+		},//created end
 			
 	}
 </script>
