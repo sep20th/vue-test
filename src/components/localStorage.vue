@@ -54,6 +54,7 @@
 					this.history = this.history.slice(0,length)
 			    // alert(this.history.length);
 			} else if (/android/.test(sua)) {
+						//检测安卓
 				    alert("android");	
 			}
 
