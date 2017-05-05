@@ -9,6 +9,7 @@
 			<button @click='clear'>清空历史搜索</button>
 			<ul>
 			<li>搜索历史</li>
+			<li>搜索历史</li>
 			<li v-for="item in history" >{{item}}</li>
 		</ul>
 		</div>
