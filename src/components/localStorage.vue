@@ -9,6 +9,7 @@
 			<button @click='clear'>清空历史搜索</button>
 			<ul>
 			<li>搜索历史</li>
+			<li>搜索历史</li>
 			<li v-for="item in history" >{{item}}</li>
 		</ul>
 		</div>
@@ -21,7 +22,7 @@
 				history:[],
 				goods:'',
 			}
-		},
+		},//data end
 		
 		methods:{
 			search(){
@@ -35,7 +36,7 @@
 				location.reload();
 				localStorage.clear();
 			}
-		},
+		},//methods end
 
 		created(){
 
@@ -54,11 +55,11 @@
 					this.history = this.history.slice(0,length)
 			    // alert(this.history.length);
 			} else if (/android/.test(sua)) {
+						//检测安卓
 				    alert("android");	
 			}
 
-		},
-		
+		},//created end
 			
 	}
 </script>
