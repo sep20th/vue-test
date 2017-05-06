@@ -8,6 +8,7 @@ import ScrollTopA from "@/components/scrollTop/scrollTopA"
 import ScrollTopB from "@/components/scrollTop/scrollTopB"
 import Scroll from "@/components/scroll"
 import localStorage from "@/components/localStorage"
+import weixinqrcode from "@/components/weixinqrcode"
 
 
 
@@ -28,6 +29,7 @@ export default new Router({
     	]
   	},
     {path:'/Scroll',component:Scroll},
-    {path:'/localStorage',component:localStorage}
+    {path:'/localStorage',component:localStorage},
+    {path:'/weixinqrcode',component:weixinqrcode}
   ]
 })

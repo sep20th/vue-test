@@ -4,12 +4,36 @@
 	<hr>
 	<div class="wrapper">
 		<div class="left"></div>
-		<div class="right"></div>
+		<div class="right">
+			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, harum.</li>
+			<li>Lorem ipolor sit etur adipisicing elit. Iusto, harum.</li>
+			<li>Lorem ipsum dolor consectetur adipisicing elit. Iusto, harum.</li>
+			<li>Lorem ipsum dolor sit amet, consectetur , harum.</li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  harum.</li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, harum.</li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+			<li>Lorem ipsumor sit amet, consectetur adipisicing elit. Iusto, harum.</li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, harum.</li>
+			<li>Lorem ipsum dxit amet, consectetur adipisicing elit. Iusto, harum.</li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, harum.</li>
+			<li>Lorem ipolor sit etur adipisicing elit. Iusto, harum.</li>
+			<li>Lorem ipsum dolor consectetur adipisicing elit. Iusto, harum.</li>
+			<li>Lorem ipsum dolor sit amet, consectetur , harum.</li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  harum.</li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, harum.</li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+			<li>Lorem ipsumor sit amet, consectetur adipisicing elit. Iusto, harum.</li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, harum.</li>
+			<li>Lorem ipsum dxit amet, consectetur adipisicing elit. Iusto, harum.</li>
+		</div>
 	</div>
 	</section>
 </template>
 
 <style scoped>
+li{
+	line-height: 80px;
+}
 	.wrapper{
 		display: flex;
 		width: 90%;
@@ -25,7 +49,7 @@
 	.left{
 		overflow-y:scroll;
 		-webkit-overflow-scrolling: touch;
-		flex:0 0 150px;
+		flex:0 0 50px;
 		background:#E9ECEC;
 	}
 	.right{

@@ -27,6 +27,11 @@
           <h3>LocalStroage</h3>
         </li>
       </router-link>
+      <router-link to="weixinqrcode">
+        <li>
+          <h3>微信qrcode</h3>
+        </li>
+      </router-link>
 
     </ul>
     <router-view ></router-view>  
@@ -37,7 +42,7 @@
 export default {
   created(){
     // 直接路由到子组件 否则router-link-active 无法在父组件生效
-    this.$router.push('/localStorage')
+    this.$router.push('/weixinqrcode')
   },//created end
 
   methods:{
@@ -74,4 +79,5 @@ li {
   border-right: 1px solid #DEDCDC;
   padding-right:10px;
 }
+
 </style>
